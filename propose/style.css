@@ -1,0 +1,43 @@
+
+#color{
+    position: absolute;
+}
+.inner_box{
+    position: relative;
+}
+
+#section .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section .container .inner_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100%;
+
+}
+#section .container .inner_box img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+#section .container .inner_box h4{
+    color: #fff;
+    font-size: 17px;
+}
+#section .container .inner_box a{
+    padding: 20px 30px;
+    background-color: #fff;
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+} 

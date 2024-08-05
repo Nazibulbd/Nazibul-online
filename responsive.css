@@ -1,0 +1,359 @@
+/*=======
+ tablet
+========*/
+@media screen and (max-width: 997px){
+    .personal_information_3 span{
+        color: #0000ff;
+        font-size: 50px;
+       }    
+}
+@media screen and (max-width: 922px) {
+    .inner_banner{
+        flex-direction: column-reverse;
+    }
+    #banner{
+        height: 800px;
+    }
+
+    
+ .personal_information_1 h2{
+    font-size: 70px;
+    line-height: 1;
+   }
+   .personal_information_1 span{
+    color: #0000ff;
+    font-size: 55px;
+   }
+   .personal_information_1 h3{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_1 p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   .icon_list{
+    margin-top: 30px;
+   }
+    .inner_banner{
+        flex-direction: column-reverse;
+    }
+    #banner{
+        height: 800px;
+    }
+
+    
+ .personal_information_2 h2{
+    font-size: 70px;
+    line-height: 1;
+   }
+   .personal_information_2 span{
+    color: #0000ff;
+    font-size: 55px;
+   }
+   .personal_information_2 h3{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_2 p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   .icon_list{
+    margin-top: 30px;
+   }
+    .inner_banner{
+        flex-direction: column-reverse;
+    }
+    #banner{
+        height: 800px;
+    }
+
+    
+ .personal_information_3 h2{
+    font-size: 70px;
+    line-height: 1;
+   }
+   .personal_information_3 span{
+    color: #0000ff;
+    font-size: 55px;
+   }
+   .personal_information_3 h3{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_3 p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   .icon_list{
+    margin-top: 30px;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+@media screen and (max-width: 600px) {
+    .inner_banner{
+        flex-direction: column-reverse;
+    }
+    #banner{
+        height: 800px;
+    }
+
+ .personal_information_1 h2{
+    font-size: 50px;
+    line-height: 1;
+   }
+   .personal_information_1 span{
+    color: #0000ff;
+    font-size: 35px;
+   }
+   .personal_information_1 h3{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_1 p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+
+ .personal_information_2 h2{
+    font-size: 50px;
+    line-height: 1;
+   }
+   .personal_information_2 span{
+    color: #0000ff;
+    font-size: 35px;
+   }
+   .personal_information_2 h3{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_2 p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+
+ .personal_information_3 h2{
+    font-size: 50px;
+    line-height: 1;
+   }
+   .personal_information_3 span{
+    color: #0000ff;
+    font-size: 35px;
+   }
+   .personal_information_3 h3{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_3 p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   .icon_list{
+    margin-top: 30px;
+   }
+   .icon_list ul{
+    column-gap: 3px;
+   }
+   .icon_list ul{
+    padding: 5px;
+   }
+}
+
+@media screen and (max-width: 455px) {
+    .inner_banner{
+        flex-direction: column-reverse;
+    }
+    #banner{
+        height: 800px;
+    }
+
+ .personal_information_1 h2{
+    font-size: 30px;
+    line-height: 1;
+   }
+   .personal_information_1 span{
+    color: #0000ff;
+    font-size: 20px;
+   }
+   .personal_information_1 h3{
+    font-size: 13px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_1 p{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   .personal_information_1 .opne{
+    display: flex;
+    column-gap: 10px;
+   }
+   .personal_information_1 .opne span{
+    font-size: 10px;
+    padding: 12px;
+    background-color: rgb(14, 134, 134);
+    border-radius: 3px;
+    color: #fff;
+   }
+   .personal_information_1  .opne a{
+    font-size: 20px;
+   }
+
+ .personal_information_2 h2{
+    font-size: 40px;
+    line-height: 1;
+    margin: 15px 0px;
+   }
+   .personal_information_2 span{
+    color: #0000ff;
+    font-size: 25px;
+   }
+   .personal_information_2 h3{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_2 p{
+    font-size: 17px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   .flower{
+    display: block;
+   }
+   .flower img{
+    height: 60px;
+    width: 50px;
+    margin-bottom: 10px;
+   }
+   
+   .personal_information_2 .opne {
+    display: flex;
+    column-gap: 8px;
+    display: none;
+
+   }
+   .personal_information_2 .opne span{
+    font-size: 15px;
+    padding: 12px;
+    background-color: rgb(14, 134, 134);
+    border-radius: 3px;
+    color: #fff;
+   }
+   .personal_information_2  .opne a{
+    font-size: 30px;
+  }
+  
+.opne-2 {
+    display: block;
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+   }
+.opne-2 span{
+    font-size: 12px;
+    padding: 12px;
+    background-color: rgb(14, 134, 134);
+    border-radius: 3px;
+    color: #fff;
+   }
+.opne-2 a{
+    font-size: 32px;
+
+
+  } 
+
+ .personal_information_3 h2{
+    font-size: 30px;
+    line-height: 1;
+   }
+   .personal_information_3 span{
+    color: #0000ff;
+    font-size: 20px;
+   }
+   .personal_information_3 h3{
+    font-size: 13px;
+    line-height: 1.7;
+    color: #222222;
+    margin-top: 25px;
+   }
+   .personal_information_3 p{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #222222;
+    margin-bottom: 20px;
+   }
+   
+   .personal_information_3 .opne {
+    display: flex;
+    column-gap: 10px;
+   }
+   .personal_information_3 .opne span{
+    font-size: 10px;
+    padding: 12px;
+    background-color: rgb(14, 134, 134);
+    border-radius: 3px;
+    color: #fff;
+   }
+   .personal_information_3  .opne a{
+    font-size: 20px;
+  }
+   .icon_list{
+    margin-top: -8px;
+   }
+   .icon_list ul{
+    column-gap: 3px;
+   }
+   .icon_list ul{
+    padding: 5px;
+    column-gap: 10px;
+   }
+   .icon_list ul a i{
+    font-size: 15px;
+    padding: 10px;
+   }
+   .icon_list ul a #facebook{
+    padding:10px 13px;
+   }
+   .icon_list ul a #groups{
+    padding:10px 8px;
+   }
+
+}

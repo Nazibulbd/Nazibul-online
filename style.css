@@ -1,0 +1,387 @@
+/*=======
+common css
+========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+  }
+
+  .container {
+    padding: 0px 30px;
+    margin: 0px auto;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  .favicon{
+    border-radius: 50%;
+  }
+
+ /* =============== 
+     BANNER CSS 1
+ =============*/
+ #banner{ 
+width: 100%;
+height: 800px; 
+background: url("./imges/backgraound.jpg");
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-position: center;
+ }
+
+ .inner_banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 70px;
+ }
+ .personal_information_1{
+  flex-basis: 50%;
+ }
+ .personal_information_1 h2{
+  font-size: 70px;
+  line-height: 1;
+ }
+ .personal_information_1 span{
+  color: #0000ff;
+  font-size: 55px;
+ }
+ .personal_information_1 h3{
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+  margin-top: 25px;
+ }
+ .personal_information_1 p{
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+  margin-bottom: 20px;
+ }
+ .personal_information_1 .opne {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+ }
+ .personal_information_1 .opne span{
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgb(14, 134, 134);
+  border-radius: 3px;
+  color: #fff;
+ }
+ .personal_information_1  .opne a{
+  font-size: 35px;
+}
+ .avatar_1 img{
+  height: 300px;
+  width: 300px;
+  border: 10px solid #34b7a7;
+  margin-right: 40px;
+  border-radius: 50%;
+ }
+
+ .icon_list{
+  margin-bottom: -50px;
+ }
+.icon_list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+ }
+.icon_list ul{
+  list-style: none;
+  padding:  8px;
+ }
+.icon_list ul a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  text-decoration:none ;
+  margin: 13px 0;
+ 
+ }
+.icon_list ul a:hover{
+  background-color: #0000ff;
+  font-style: 16px;
+  color: #fff;
+ }
+ .icon_list ul a i{
+  font-size: 20px;
+  color: blue;
+  padding: 15px;
+ }
+ .icon_list ul a i:hover{
+  color: #fff;
+ }
+ .icon_list ul a #facebook{
+  padding:15px 20px;
+ }
+
+ /* =============== 
+     BANNER CSS 2
+ =============*/
+ #banner{ 
+width: 100%;
+height: 600px;
+background: url("./imges/backgraound.jpg");
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-position: center;
+ }
+
+ .inner_banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 70px;
+ }
+ .personal_information_2{
+  flex-basis: 50%;
+ }
+ .personal_information_2 h2{
+  font-size: 70px;
+  line-height: 1;
+ }
+ .personal_information_2 span{
+  color: #0000ff;
+  font-size: 55px;
+ }
+ .personal_information_2 h3{
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+  margin-top: 25px;
+ }
+
+ .personal_information_2 p{
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+  margin-bottom: 20px;
+ }
+ .flower{
+  display: none;
+ }
+
+ .personal_information_2 .opne {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+ }
+ .personal_information_2 .opne span{
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgb(14, 134, 134);
+  border-radius: 3px;
+  color: #fff;
+ }
+ .personal_information_2  .opne a{
+  font-size: 35px;
+}
+
+
+.opne-2 {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  display: none;
+ }
+.opne-2 span{
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgb(14, 134, 134);
+  border-radius: 3px;
+  color: #fff;
+ }
+.opne-2 a{
+  font-size: 30px;
+
+}
+
+ .avatar_2 img{
+  height: 300px;
+  width: 300px;
+  border: 10px solid #34b7a7;
+  margin-right: 40px;
+  border-radius: 50%;
+ }
+
+ .icon_list{
+  margin-bottom: -50px;
+ }
+.icon_list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+ }
+.icon_list ul li{
+  list-style: none;
+  padding:  8px;
+ }
+.icon_list ul a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  text-decoration:none ;
+  margin: 13px 0;
+ 
+ }
+.icon_list ul a:hover{
+  background-color: #0000ff;
+  font-style: 16px;
+  color: #fff;
+ }
+ .icon_list ul a i{
+  font-size: 20px;
+  color: blue;
+  padding: 15px;
+ }
+ .icon_list ul a i:hover{
+  color: #fff;
+ }
+ .icon_list ul a #facebook{
+  padding:15px 20px;
+ }
+ .icon_list ul a #groups{
+  padding:15px 13px;
+ }
+
+
+ /* =============== 
+     BANNER CSS 3
+ =============*/
+ #banner{ 
+width: 100%;
+height: 600px;
+background: url("./imges/backgraound.jpg");
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-position: center;
+ }
+
+ .inner_banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 70px;
+ }
+ .personal_information_3{
+  flex-basis: 50%;
+ }
+ .personal_information_3 h2{
+  font-size: 70px;
+  line-height: 1;
+ }
+ .personal_information_3 span{
+  color: #0000ff;
+  font-size: 55px;
+ }
+ .personal_information_3 h3{
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+  margin: 20px 0px;
+ }
+ .personal_information_3 p{
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+  margin-bottom: 20px;
+ }
+ 
+ .personal_information_3 .opne {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+ }
+ .personal_information_3 .opne span{
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgb(14, 134, 134);
+  border-radius: 3px;
+  color: #fff;
+ }
+ .personal_information_3  .opne a{
+  font-size: 35px;
+}
+ .avatar_3 img{
+  height: 300px;
+  width: 300px;
+  border: 10px solid #34b7a7;
+  margin-right: 40px;
+  border-radius: 50%;
+ }
+
+ .icon_list{
+  margin-bottom: -50px;
+ }
+.icon_list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+ }
+.icon_list ul li{
+  list-style: none;
+  padding: 8px;
+ }
+.icon_list ul a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  text-decoration:none ;
+  margin: 13px 0;
+ 
+ }
+.icon_list ul a:hover{
+  background-color: #0000ff;
+  font-style: 16px;
+  color: #fff;
+ }
+ .icon_list ul a i{
+  font-size: 20px;
+  color: blue;
+  padding: 15px;
+ }
+ .icon_list ul a i:hover{
+  color: #fff;
+ }
+ .icon_list ul a #facebook{
+  padding:15px 20px;
+ }
